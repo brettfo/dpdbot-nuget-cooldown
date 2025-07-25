@@ -5,4 +5,7 @@ updates:
     schedule:
       interval: daily
     cooldown:
-      semver-patch-days: 900 # the Newtonsoft.Json packages have been published for quite some time
+      default-days: 20
+      semver-major-days: 20
+      semver-minor-days: 20
+      semver-patch-days: 20
